@@ -1,0 +1,23 @@
+@media(width: 360px){
+	.footer_top::after{
+		bottom: -6%;
+	}
+}
+@media(width: 320px){
+	.footer_top::after{
+		bottom: -5%;
+	}
+}
+@media(max-width: 368px){
+	.footer_mid .item p{padding-bottom: 2px;}
+	.footer_mid .carousel-indicators{ visibility: hidden; }
+	.Content_info .new_projects h2{width: 60%}
+	.Content_info .Features h1{width: 50%}
+	.selectt .row p{
+		width: 100%;
+	}
+	.selectt .row button{
+		margin-bottom: 10px;
+	}
+	.Content_info .filter{visibility:hidden;}
+}
